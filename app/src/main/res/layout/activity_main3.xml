@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="#545561">
+
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Enter distance in km"
+        android:inputType="numberDecimal"
+        android:textColorHint="#a5d7df" />
+
+    <EditText
+        android:id="@+id/waittime"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Enter waiting time (if any)"
+        android:inputType="textPersonName"
+        android:textColorHint="#a5d7df" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp"
+        android:text="Calculate"
+        android:background="#a5d7df"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColorHint="#545561"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="250dp"
+        android:layout_marginStart="47dp"
+        android:buttonTint="#a5d7df"
+        android:fontFamily="monospace"
+        android:text="9:00 PM - 5:00 AM"
+        android:textColor="#a5d7df" />
+</RelativeLayout>
